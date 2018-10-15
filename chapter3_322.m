@@ -15,3 +15,15 @@ I_imag=b/a;
  fprintf('Z_l=%6.2f+%6.2fj\nZ_c=%6.2f+%6.2fj\nZ_r=%6.2f+%6.2fj\n  V=%6.2f+%6.2fj\n',Z_l(1),Z_l(2),Z_c(1),Z_c(2),Z_r(1),Z_r(2),V(1),V(2))
  fprintf('  I=%6.2f+%6.2fj',I_real,I_imag)
 end
+
+
+>> chapter3_322
+Please enter the real and imaginary part of the inductance as a 1X2 array:[0 5]
+Please enter the real and imaginary part of the capacitance as a 1X2 array:[0 -15]
+Please enter the resistor:[5 0]
+Please enter real and imaginary part of the sinusoidally varying voltage source as a 1X2 array:[10 0]
+Z_l=  0.00+  5.00j
+Z_c=  0.00+-15.00j
+Z_r=  5.00+  0.00j
+  V= 10.00+  0.00j
+  I=  0.40+  0.80j>> 
