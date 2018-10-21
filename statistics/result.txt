@@ -1,0 +1,32 @@
+ stat('mytext1','c')     求字符数
+
+filename =
+
+    'mytext1.txt'
+
+
+ans =
+
+    95
+
+>> stat('mytext1','w')     求单词数
+
+filename =
+
+    'mytext1.txt'
+
+
+ans =
+
+    17
+
+>> stat('mytext1','p')     求句子数
+
+filename =
+
+    'mytext1.txt'
+
+
+ans =
+
+     4
